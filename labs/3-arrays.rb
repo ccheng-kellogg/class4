@@ -4,11 +4,26 @@
 
 # EXERCISE
 # Create a "shared" shopping list with a friend
+
+# groceries = "eggs", "milk", "water"
+# puts groceries
+
 # Create two data structures - one for your list of stuff, and one
 # for your friend, e.g. you want milk, eggs, and bacon, and
 # your friend wants beer, cookies, and apples.
+
+# more_groceries = "beer", "wine", "tequila"
+# p more_groceries
+
 # Programmatically combine the two arrays into a single list,
 # sort the result (alphabetically), and write it to the screen.
+
+# groceries.push("beer", "wine", "tequila")
+# p groceries
+
+groceries + more_groceries = groceriestwo
+p groceriestwo
+
 # If the two lists contain the same item, only show it once!
 # Lastly, display each item in the list prepended with "buy ".
 
